@@ -30,6 +30,10 @@
 
   <!-- Template Main CSS File -->
   <link href="assets/css/main.css" rel="stylesheet">
+  <!-- Start of HubSpot Embed Code -->
+
+
+<!-- End of HubSpot Embed Code -->
 
   <!-- =======================================================
   * Template Name: UpConstruction
@@ -141,40 +145,9 @@
               <p>Be part of the service industry revolution—join the waitlist today!</p>
             </div>
           </div>
-
+			
           <div class="col-lg-5" data-aos="fade">
-            <form action="forms/quote.php" method="post" class="php-email-form">
-              <h3>Get in touch</h3>
-              <p>Fill out the form and our team will reach out to you.</p>
-
-              <div class="row gy-3">
-
-                <div class="col-md-12">
-                  <input type="text" name="name" class="form-control" placeholder="Name" required>
-                </div>
-
-                <div class="col-md-12 ">
-                  <input type="email" class="form-control" name="email" placeholder="Email" required>
-                </div>
-
-                <div class="col-md-12">
-                  <input type="text" class="form-control" name="phone" placeholder="Phone" required>
-                </div>
-
-                <div class="col-md-12">
-                  <textarea class="form-control" name="message" rows="6" placeholder="Message" required></textarea>
-                </div>
-
-                <div class="col-md-12 text-center">
-                  <div class="loading">Loading</div>
-                  <div class="error-message"></div>
-                  <div class="sent-message">Your quote request has been sent successfully. Thank you!</div>
-                  <p class="fa-italic fst-italic"> *No credit card required.</p>
-                  <button type="submit">Book a demo</button>
-                </div>
-
-              </div>
-            </form>
+		  <div class="meme" id="meme"></div>
           </div><!-- End Quote Form -->
 
         </div>
@@ -593,6 +566,7 @@
       <div class="container">
 
         <div class="row justify-content-between gy-4">
+		<div id="meme" class="meme"></div>
 
           <div class="col-lg-6 d-flex align-items-center" data-aos="fade-up">
             <div class="content">
@@ -758,6 +732,7 @@
         </div>
       </div>
     </div>
+	
 
   </footer>
   <!-- End Footer -->
@@ -778,6 +753,16 @@
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
+  <script charset="utf-8" type="text/javascript" src="https://js.hsforms.net/forms/embed/v2.js"></script>
+<script>
+  hbspt.forms.create({
+    region: "na1",
+    portalId: "42889222",
+    formId: "01bfaaf2-6738-4465-b4af-9dcb78acd827",
+	target: ".meme"
+  });
+</script>
+
 
 </body>
 
