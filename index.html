@@ -5,32 +5,36 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>iByxa</title>
+  <title>The best field service management application - iByxa</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
   <!-- Favicons -->
-  <link href="assets/img/ib-fav-icon.png" rel="icon">
+  <link href="assets/img/favicon.png" rel="icon">
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,600;1,700&family=Roboto:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Work+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap"
+    rel="stylesheet">
 
   <!-- Vendor CSS Files -->
-  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
   <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
   <!-- Template Main CSS File -->
-  <link href="assets/css/style.css" rel="stylesheet">
+  <link href="assets/css/main.css" rel="stylesheet">
 
   <!-- =======================================================
-  * Template Name: FlexStart
-  * Updated: Jun 04 2023 with Bootstrap v5.3.0
-  * Template URL: https://bootstrapmade.com/flexstart-bootstrap-startup-template/
+  * Template Name: UpConstruction
+  * Updated: Jul 27 2023 with Bootstrap v5.3.1
+  * Template URL: https://bootstrapmade.com/upconstruction-bootstrap-construction-website-template/
   * Author: BootstrapMade.com
   * License: https://bootstrapmade.com/license/
   ======================================================== -->
@@ -39,429 +43,737 @@
 <body>
 
   <!-- ======= Header ======= -->
-  <header id="header" class="header fixed-top">
+  <header id="header" class="header d-flex align-items-center">
     <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
 
       <a href="index.html" class="logo d-flex align-items-center">
-        <img src="assets/img/logo.png" alt="">
-        <span>iByxa</span>
+        <!-- Uncomment the line below if you also wish to use an image logo -->
+        <!-- <img src="assets/img/logo.png" alt=""> -->
+        <h1>iByxa<span>.</span></h1>
       </a>
 
+      <i class="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
+      <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
       <nav id="navbar" class="navbar">
         <ul>
-          <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
-          <li><a class="nav-link scrollto" href="#services">Features</a></li>
-
-          <li><a class="nav-link scrollto" href="#footer">Contact</a></li>
-          <li><a class="getstarted scrollto" target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSeBVqZ370pgiTCkXjGkc9jn7u3cQWy3G7DX_d0cDEuIXMh6bQ/viewform">Get Started</a></li>
+          <li><a href="index.html" class="active">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <!-- <li><a href="services.html">Services</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="blog.html">Blog</a></li> -->
+          <!-- <li class="dropdown"><a href="#"><span>Dropdown</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
+            <ul>
+              <li><a href="#">Dropdown 1</a></li>
+              <li class="dropdown"><a href="#"><span>Deep Dropdown</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
+                <ul>
+                  <li><a href="#">Deep Dropdown 1</a></li>
+                  <li><a href="#">Deep Dropdown 2</a></li>
+                  <li><a href="#">Deep Dropdown 3</a></li>
+                  <li><a href="#">Deep Dropdown 4</a></li>
+                  <li><a href="#">Deep Dropdown 5</a></li>
+                </ul>
+              </li>
+              <li><a href="#">Dropdown 2</a></li>
+              <li><a href="#">Dropdown 3</a></li>
+              <li><a href="#">Dropdown 4</a></li>
+            </ul>
+          </li> -->
+          <li><a href="contact.html">Contact</a></li>
         </ul>
-        <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
 
     </div>
   </header><!-- End Header -->
 
   <!-- ======= Hero Section ======= -->
-  <section id="hero" class="hero d-flex align-items-center">
+  <section id="hero" class="hero">
 
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-6 d-flex flex-column justify-content-center">
-          <h1 data-aos="fade-up">iByxa</h1>
-          <h2 data-aos="fade-up" data-aos-delay="400">Redefining Construction Workflows with iByxa's Technological Expertise</h2>
-          <div data-aos="fade-up" data-aos-delay="600">
-            <div class="text-center text-lg-start">
-              <a href="#about" class="btn-get-started scrollto d-inline-flex align-items-center justify-content-center align-self-center">
-                <span>Get Started</span>
-                <i class="bi bi-arrow-right"></i>
-              </a>
-            </div>
+    <div class="info d-flex align-items-center">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-6 text-center">
+            <h2 data-aos="fade-down">Organize your service business with <span>iByxa</span></h2>
+            <p data-aos="fade-up"><i class="bi bi-check2-all"></i> Handle all your business and customer communication
+              in one convenient place.</p>
+            <p data-aos="fade-up"><i class="bi bi-check2-all"></i> Simplify your business tasks—estimate, quote,
+              schedule, invoice, and get paid effortlessly. </p>
+            <p data-aos="fade-up"><i class="bi bi-check2-all"></i> No software experience needed. Easy setup.</p>
+            <a data-aos="fade-up" data-aos-delay="200" href="#get-started" class="btn-get-started">Get Started</a>
           </div>
-        </div>
-        <div class="col-lg-6 hero-img" data-aos="zoom-out" data-aos-delay="200">
-          <img src="assets/img/hero-img.png" class="img-fluid" alt="">
         </div>
       </div>
     </div>
 
-  </section><!-- End Hero -->
+    <div id="hero-carousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="5000">
+
+      <div class="carousel-item active" style="background-image: url(assets/img/hero-carousel/hero2.jpeg)">
+      </div>
+      <div class="carousel-item" style="background-image: url(assets/img/hero-carousel/hero-carousel-2.jpg)"></div>
+      <div class="carousel-item" style="background-image: url(assets/img/hero-carousel/hero1.webp)"></div>
+      <div class="carousel-item" style="background-image: url(assets/img/hero-carousel/heron.webp)"></div>
+      <div class="carousel-item" style="background-image: url(assets/img/hero-carousel/herox.webp)"></div>
+      <div class="carousel-item" style="background-image: url(assets/img/hero-carousel/hero-carousel-5.jpg)"></div>
+
+      <a class="carousel-control-prev" href="#hero-carousel" role="button" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon bi bi-chevron-left" aria-hidden="true"></span>
+      </a>
+
+      <a class="carousel-control-next" href="#hero-carousel" role="button" data-bs-slide="next">
+        <span class="carousel-control-next-icon bi bi-chevron-right" aria-hidden="true"></span>
+      </a>
+
+    </div>
+
+  </section><!-- End Hero Section -->
 
   <main id="main">
 
-    <!-- ======= Values Section ======= -->
-    <section id="values" class="values">
+    <!-- ======= Get Started Section ======= -->
+    <section id="get-started" class="get-started ">
+      <div class="container">
 
-      <div class="container" data-aos="fade-up">
+        <div class="row justify-content-between gy-4">
 
-        <header class="section-header">
-          <p>From Delays to Dilemmas</p>
-        </header>
-
-        <div class="row">
-
-          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="200">
-            <div class="box">
-              <img src="assets/img/values-1.png" class="img-fluid" alt="">
-              <h3>Web of Stakeholder Connectivity</h3>
-              <p>Streamlining communication with internal and external stakeholders is a constant struggle in the construction industry. We understand the frustrations and aim to untangle the web, empowering you to connect seamlessly for enhanced collaboration and efficiency.</p>
+          <div class="col-lg-6 d-flex align-items-center" data-aos="fade-up">
+            <div class="content">
+              <h3>Share your expertise in the service and contractor industry to help shape our technology. </h3>
+              <p>Get early access to ibyxa's revolutionary software with exclusive discounts for early adopters.</p>
+              <p>Be part of the service industry revolution—join the waitlist today!</p>
             </div>
           </div>
 
-          <div class="col-lg-4 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="400">
-            <div class="box">
-              <img src="assets/img/values-2.png" class="img-fluid" alt="">
-              <h3>Project Transparency</h3>
-              <p>The lack of transparency in construction projects poses significant hurdles for stakeholders. At iByxa, we recognize the need for clear visibility into project details, progress, and decision-making. We strive to bridge the transparency gap, empowering you with real-time insights and data-driven transparency to drive successful project outcomes.</p>
-            </div>
-          </div>
+          <div class="col-lg-5" data-aos="fade">
+            <form action="forms/quote.php" method="post" class="php-email-form">
+              <h3>Get in touch</h3>
+              <p>Fill out the form and our team will reach out to you.</p>
 
-          <div class="col-lg-4 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="600">
-            <div class="box">
-              <img src="assets/img/values-3.png" class="img-fluid" alt="">
-              <h3>Project Overdue, Budget Exceeded</h3>
-              <p>Delays and budget overruns plague the construction industry, causing frustration and financial strain. At iByxa, we specialize in efficient project management solutions. With our advanced technologies and streamlined processes, we empower you to regain control, meet deadlines, and stay within budget, ensuring successful project outcomes.</p>
-            </div>
-          </div>
+              <div class="row gy-3">
 
-        </div>
-
-      </div>
-
-    </section><!-- End Values Section -->
-
-    <!-- ======= Counts Section ======= -->
-
-    <!-- ======= Features Section ======= -->
-    <section id="features" class="features">
-
-      <div class="container" data-aos="fade-up">
-        <!-- Feature Icons -->
-        <div class="row feature-icons" data-aos="fade-up">
-          <h3>Breaking Down Barriers in Construction</h3>
-
-          <div class="row">
-
-            <div class="col-xl-4 text-center" data-aos="fade-right" data-aos-delay="100">
-              <img src="assets/img/features-3.png" class="img-fluid p-4" alt="">
-            </div>
-
-            <div class="col-xl-8 d-flex content">
-              <div class="row align-self-center gy-4">
-
-                <div class="col-md-6 icon-box" data-aos="fade-up">
-                  <i class="ri-line-chart-line"></i>
-                  <div>
-                    <h4>Precision in Planning</h4>
-                    <p>At iByxa, we specialize in detailed planning, optimizing project timelines, resources, and anticipating challenges. Our meticulous approach empowers confident construction execution and extraordinary outcomes.</p>
-                  </div>
+                <div class="col-md-12">
+                  <input type="text" name="name" class="form-control" placeholder="Name" required>
                 </div>
 
-                <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="100">
-                  <i class="ri-stack-line"></i>
-                  <div>
-                    <h4>Transparency</h4>
-                    <p> iByxa revolutionizes construction transparency, empowering stakeholders with real-time insights and enhancing communication for successful project outcomes.</p>
-                  </div>
-                </div>
-
-                <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="200">
-                  <i class="ri-brush-4-line"></i>
-                  <div>
-                    <h4>Strengthening Partnerships</h4>
-                    <p> iByxa fosters seamless communication and efficient collaboration with vendors and contractors, unlocking the potential for successful construction projects.</p>
-                  </div>
-                </div>
-
-                <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="300">
-                  <i class="ri-magic-line"></i>
-                  <div>
-                    <h4>End-to-End Excellence</h4>
-                    <p>iByxa provides comprehensive end-to-end management, ensuring seamless workflows and successful project completion from inception to conveyance.</p>
-                  </div>
-                </div>
-
-              </div>
-            </div>
-
-          </div>
-
-        </div><!-- End Feature Icons -->
-
-      </div>
-
-    </section><!-- End Features Section -->
-
-    <!-- ======= Services Section ======= -->
-    <section id="services" class="services">
-
-      <div class="container" data-aos="fade-up">
-
-        <header class="section-header">
-          <p>Next-Generation Tools for Construction Advancement</p>
-        </header>
-
-        <div class="row gy-4">
-
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
-            <div class="service-box blue">
-              <i class="ri-discuss-line icon"></i>
-              <h3>Project Management</h3>
-              <p>Streamline and optimize your construction projects with our robust project management feature.</p>
-              <!-- <a href="#" class="read-more"><span>Read More</span> <i class="bi bi-arrow-right"></i></a> -->
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
-            <div class="service-box orange">
-              <i class="ri-discuss-line icon"></i>
-              <h3>Document Management</h3>
-              <p>Simplify document organization and access with our efficient document management solution.</p>
-              <!-- <a href="#" class="read-more"><span>Read More</span> <i class="bi bi-arrow-right"></i></a> -->
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
-            <div class="service-box green">
-              <i class="ri-discuss-line icon"></i>
-              <h3>Procurement Management</h3>
-              <p>Streamline procurement processes and manage suppliers effortlessly with our procurement management feature.</p>
-              <!-- <a href="#" class="read-more"><span>Read More</span> <i class="bi bi-arrow-right"></i></a> -->
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="500">
-            <div class="service-box red">
-              <i class="ri-discuss-line icon"></i>
-              <h3>Approvals and alerts</h3>
-              <p>Stay on top of approvals and receive timely alerts to ensure smooth progress and avoid delays.</p>
-              <!-- <a href="#" class="read-more"><span>Read More</span> <i class="bi bi-arrow-right"></i></a> -->
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
-            <div class="service-box purple">
-              <i class="ri-discuss-line icon"></i>
-              <h3>Expense management.</h3>
-              <p>Gain control over project expenses and track costs accurately with our comprehensive expense management tool.</p>
-              <!-- <a href="#" class="read-more"><span>Read More</span> <i class="bi bi-arrow-right"></i></a> -->
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="700">
-            <div class="service-box pink">
-              <i class="ri-discuss-line icon"></i>
-              <h3>Compliance management</h3>
-              <p>Ensure regulatory compliance and mitigate risks seamlessly with our dedicated compliance management feature.</p>
-              <!-- <a href="#" class="read-more"><span>Read More</span> <i class="bi bi-arrow-right"></i></a> -->
-            </div>
-          </div>
-
-        </div>
-
-      </div>
-
-    </section><!-- End Services Section -->
-
-    <!-- ======= Pricing Section ======= -->
-
-    <!-- ======= F.A.Q Section ======= -->
-
-    <!-- ======= Portfolio Section ======= -->
-
-    <!-- ======= Testimonials Section ======= -->
-
-    <!-- ======= Team Section ======= -->
-    <!-- <section id="team" class="team">
-
-      <div class="container" data-aos="fade-up">
-
-        <header class="section-header">
-          <h2>Team</h2>
-          <p>Our hard working team</p>
-        </header>
-
-        <div class="row gy-4">
-
-          <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
-            <div class="member">
-              <div class="member-img">
-                <img src="assets/img/team/team-1.jpg" class="img-fluid" alt="">
-                <div class="social">
-                  <a href=""><i class="bi bi-twitter"></i></a>
-                  <a href=""><i class="bi bi-facebook"></i></a>
-                  <a href=""><i class="bi bi-instagram"></i></a>
-                  <a href=""><i class="bi bi-linkedin"></i></a>
-                </div>
-              </div>
-              <div class="member-info">
-                <h4>Walter White</h4>
-                <span>Chief Executive Officer</span>
-                <p>Velit aut quia fugit et et. Dolorum ea voluptate vel tempore tenetur ipsa quae aut. Ipsum exercitationem iure minima enim corporis et voluptate.</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200">
-            <div class="member">
-              <div class="member-img">
-                <img src="assets/img/team/team-2.jpg" class="img-fluid" alt="">
-                <div class="social">
-                  <a href=""><i class="bi bi-twitter"></i></a>
-                  <a href=""><i class="bi bi-facebook"></i></a>
-                  <a href=""><i class="bi bi-instagram"></i></a>
-                  <a href=""><i class="bi bi-linkedin"></i></a>
-                </div>
-              </div>
-              <div class="member-info">
-                <h4>Sarah Jhonson</h4>
-                <span>Product Manager</span>
-                <p>Quo esse repellendus quia id. Est eum et accusantium pariatur fugit nihil minima suscipit corporis. Voluptate sed quas reiciendis animi neque sapiente.</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="300">
-            <div class="member">
-              <div class="member-img">
-                <img src="assets/img/team/team-3.jpg" class="img-fluid" alt="">
-                <div class="social">
-                  <a href=""><i class="bi bi-twitter"></i></a>
-                  <a href=""><i class="bi bi-facebook"></i></a>
-                  <a href=""><i class="bi bi-instagram"></i></a>
-                  <a href=""><i class="bi bi-linkedin"></i></a>
-                </div>
-              </div>
-              <div class="member-info">
-                <h4>William Anderson</h4>
-                <span>CTO</span>
-                <p>Vero omnis enim consequatur. Voluptas consectetur unde qui molestiae deserunt. Voluptates enim aut architecto porro aspernatur molestiae modi.</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="400">
-            <div class="member">
-              <div class="member-img">
-                <img src="assets/img/team/team-4.jpg" class="img-fluid" alt="">
-                <div class="social">
-                  <a href=""><i class="bi bi-twitter"></i></a>
-                  <a href=""><i class="bi bi-facebook"></i></a>
-                  <a href=""><i class="bi bi-instagram"></i></a>
-                  <a href=""><i class="bi bi-linkedin"></i></a>
-                </div>
-              </div>
-              <div class="member-info">
-                <h4>Amanda Jepson</h4>
-                <span>Accountant</span>
-                <p>Rerum voluptate non adipisci animi distinctio et deserunt amet voluptas. Quia aut aliquid doloremque ut possimus ipsum officia.</p>
-              </div>
-            </div>
-          </div>
-
-        </div>
-
-      </div>
-
-    </section> -->
-
-    <section id="contact" class="contact">
-
-      <div class="container" data-aos="fade-up">
-
-        <header class="section-header">
-          <h2>Contact</h2>
-          <p>Contact Us</p>
-        </header>
-
-        <div class="row gy-4">
-
-          <div class="col-lg-6">
-
-            <div class="row gy-4">
-              <div class="col-md-6">
-                <div class="info-box">
-                  <i class="bi bi-telephone"></i>
-                  <h3>Call Us</h3>
-                  <p>+91 9403123275<br>‎ </p>
-                </div>
-              </div>
-              <div class="col-md-6">
-                <div class="info-box">
-                  <i class="bi bi-envelope"></i>
-                  <h3>Email Us</h3>
-                  <p>aayush@ibyxa.in<br>shobhit@ibyxa.in</p>
-                </div>
-              </div>
-            </div>
-
-          </div>
-
-          <div class="col-lg-6">
-            <div class="php-email-form">
-              <div class="row gy-4">
-
-                <div class="col-md-12" style="text-align: center;">
-                  <h5>Please take a moment to provide us with some more details so that we can better understand your needs and how we can assist you by clicking on the button below!</h5>
-                </div>
-
-                <!-- <div class="col-md-6 ">
-                  <input type="email" class="form-control" name="email" placeholder="Your Email" required>
+                <div class="col-md-12 ">
+                  <input type="email" class="form-control" name="email" placeholder="Email" required>
                 </div>
 
                 <div class="col-md-12">
-                  <input type="text" class="form-control" name="subject" placeholder="Subject" required>
+                  <input type="text" class="form-control" name="phone" placeholder="Phone" required>
                 </div>
 
                 <div class="col-md-12">
                   <textarea class="form-control" name="message" rows="6" placeholder="Message" required></textarea>
-                </div> -->
+                </div>
 
                 <div class="col-md-12 text-center">
-                  <!-- <div class="loading">Loading</div>
+                  <div class="loading">Loading</div>
                   <div class="error-message"></div>
-                  <div class="sent-message">Your message has been sent. Thank you!</div> -->
-
-                  <a href="https://docs.google.com/forms/d/e/1FAIpQLSeBVqZ370pgiTCkXjGkc9jn7u3cQWy3G7DX_d0cDEuIXMh6bQ/viewform" target="_blank"><button type="submit">Send us a Message</button></a>
+                  <div class="sent-message">Your quote request has been sent successfully. Thank you!</div>
+                  <p class="fa-italic fst-italic"> *No credit card required.</p>
+                  <button type="submit">Book a demo</button>
                 </div>
 
               </div>
-            </div>
-
-          </div>
+            </form>
+          </div><!-- End Quote Form -->
 
         </div>
 
       </div>
-      </section>
+    </section><!-- End Get Started Section -->
+    <!-- ======= Features Section ======= -->
+    <section id="features" class="features section-bg">
+      <div class="container" data-aos="fade-up">
 
-  </main>
+        <ul class="nav nav-tabs row  g-2 d-flex">
+
+          <li class="nav-item col-2">
+            <a class="nav-link active show" data-bs-toggle="tab" data-bs-target="#tab-1">
+              <h4>Capture Leads</h4>
+            </a>
+          </li><!-- End tab nav item -->
+
+          <li class="nav-item col-2">
+            <a class="nav-link" data-bs-toggle="tab" data-bs-target="#tab-2">
+              <h4>Generate Proposals</h4>
+            </a><!-- End tab nav item -->
+
+          <li class="nav-item col-2">
+            <a class="nav-link" data-bs-toggle="tab" data-bs-target="#tab-3">
+              <h4>Manage Jobs</h4>
+            </a>
+          </li><!-- End tab nav item -->
+
+          <li class="nav-item 2 col-2">
+            <a class="nav-link" data-bs-toggle="tab" data-bs-target="#tab-4">
+              <h4>Automate Invoices</h4>
+            </a>
+          </li>
+
+          <li class="nav-item col-2">
+            <a class="nav-link" data-bs-toggle="tab" data-bs-target="#tab-5">
+              <h4>Collect Payments</h4>
+            </a>
+          </li>
+
+          <!-- End tab nav item -->
+
+        </ul>
+
+        <div class="tab-content">
+
+          <div class="tab-pane active show" id="tab-1">
+            <div class="row">
+              <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0 d-flex flex-column justify-content-center"
+                data-aos="fade-up" data-aos-delay="100">
+                <h3>Stay on top of requests</h3>
+                <p class="fst-italic">
+                  Capture leads from all the sources into our system directly for you to manage in a single place
+                </p>
+                <ul>
+                  <li><i class="bi bi-check2-all"></i>Get back to leads from email, message and your website</li>
+                  <li><i class="bi bi-check2-all"></i> Send customised automated emails and sms to clients or let them
+                    book into your calendar directly</li>
+                  <li><i class="bi bi-check2-all"></i>Get more leads at improved cost</li>
+                </ul>
+              </div>
+              <div class="col-lg-6 order-1 order-lg-2 text-center" data-aos="fade-up" data-aos-delay="200">
+                <img src="assets/img/leads.jpg" alt="" class="img-fluid">
+              </div>
+            </div>
+          </div><!-- End tab content item -->
+
+          <div class="tab-pane" id="tab-2">
+            <div class="row">
+              <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0 d-flex flex-column justify-content-center">
+                <h3>Generate winning proposals</h3>
+                <!-- <p class="fst-italic">
+                  Convert all your leads by automating proposals
+                </p> -->
+                <ul>
+                  <li><i class="bi bi-check2-all"></i> Impress your clients with professional and personalized proposals
+                    in just a few clicks</li>
+                  <li><i class="bi bi-check2-all"></i> Add all line items along with optional line items for your
+                    clients to choose</li>
+                  <li><i class="bi bi-check2-all"></i> Get ready to stand out from the competition and close deals
+                    faster than ever before.
+                  </li>
+
+                </ul>
+              </div>
+              <div class="col-lg-6 order-1 order-lg-2 text-center">
+                <img src="assets/img/proposal.jpeg" alt="" class="img-fluid">
+              </div>
+            </div>
+          </div><!-- End tab content item -->
+
+          <div class="tab-pane" id="tab-3">
+            <div class="row">
+              <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0 d-flex flex-column justify-content-center">
+                <h3>Schedule and manage jobs faster</h3>
+                <ul>
+                  <li><i class="bi bi-check2-all"></i> Book your customers on your schedule with our smart suggestions
+                    based on your staff's availability</li>
+                  <li><i class="bi bi-check2-all"></i> Track time of your employees and efficiently manage resources
+                  </li>
+                  <li><i class="bi bi-check2-all"></i> Manage your inventory and quickly raise PO's with just a few
+                    clicks</li>
+                </ul>
+                <p class="fst-italic">
+                  Manage jobs easily with our built in project management tools with features like inventory management,
+                  time tracking, document sharing and much more.
+                </p>
+              </div>
+              <div class="col-lg-6 order-1 order-lg-2 text-center">
+                <img src="assets/img/features-4.jpg" alt="" class="img-fluid">
+              </div>
+            </div>
+          </div><!-- End tab content item -->
+
+          <div class="tab-pane" id="tab-4">
+            <div class="row">
+              <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0 d-flex flex-column justify-content-center">
+                <h3>Automate Invoicing</h3>
+                <p class="fst-italic">
+                  Forget about the hassle of paperwork and focus on getting paid faster.
+                </p>
+                <ul>
+                  <li><i class="bi bi-check2-all"></i> Just hit the complete button and a copy of invoice would be
+                    shared with the customer on email and sms</li>
+                  <li><i class="bi bi-check2-all"></i> Collect timely payments for recurring jobs with our automated
+                    invoicing</li>
+                  <li><i class="bi bi-check2-all"></i> Manage profits and revenue with our financial planning tool</li>
+                </ul>
+              </div>
+              <div class="col-lg-6 order-1 order-lg-2 text-center">
+                <img src="assets/img/features-3.jpg" alt="" class="img-fluid">
+              </div>
+            </div>
+          </div><!-- End tab content item -->
+          <div class="tab-pane" id="tab-5">
+            <div class="row">
+              <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0 d-flex flex-column justify-content-center">
+                <h3>Get paid faster with easy to use online payment</h3>
+                <p class="fst-italic">
+                  Accept payments in person, autocharge credit cards, and offer online payments to your customers with
+                  no hidden fees.
+                </p>
+                <ul>
+                  <li><i class="bi bi-check2-all"></i> Allow customers to pay online via credit cards or bank transfers
+                  </li>
+                  <li><i class="bi bi-check2-all"></i> Send payment receipts over email and sms to your clients</li>
+                  <li><i class="bi bi-check2-all"></i> Automate followups and payment reminders to avoid leakages</li>
+                </ul>
+              </div>
+              <div class="col-lg-6 order-1 order-lg-2 text-center">
+                <img src="assets/img/payment.webp" alt="" class="img-fluid">
+              </div>
+            </div>
+          </div><!-- End tab content item -->
+
+        </div>
+
+      </div>
+    </section><!-- End Features Section -->
+    
+
+    <!-- ======= Constructions Section ======= -->
+    <section id="constructions" class="constructions">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-header">
+          <h2>Industries we serve</h2>
+          <p>Empowering outdoor service industries, from solo ventures to large teams, with the best and most affordable
+            contract management tools across industries.</p>
+        </div>
+
+        <div class="row gy-4">
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="card-item">
+              <div class="row">
+                <div class="col-xl-5">
+                  <div class="card-bg" style="background-image: url(assets/img/lawn.jpeg);"></div>
+                </div>
+                <div class="col-xl-7 d-flex align-items-center">
+                  <div class="card-body">
+                    <h4 class="card-title">Cleaning</h4>
+                    <p><i class="bi bi-check2-all"></i> Cleaning</p>
+                    <p><i class="bi bi-check2-all"></i> Janitorial Cleaning</p>
+                    <p><i class="bi bi-check2-all"></i> Pressure Washing</p>
+                    <p><i class="bi bi-check2-all"></i> Window Cleaning</p>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div><!-- End Card Item -->
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+            <div class="card-item">
+              <div class="row">
+                <div class="col-xl-5">
+                  <div class="card-bg" style="background-image: url(assets/img/constructions-2.jpg);"></div>
+                </div>
+                <div class="col-xl-7 d-flex align-items-center">
+                  <div class="card-body">
+                    <h4 class="card-title">Contracting</h4>
+                    <p><i class="bi bi-check2-all"></i> General Contractor</p>
+                    <p><i class="bi bi-check2-all"></i> Hanyman</p>
+                    <p><i class="bi bi-check2-all"></i> Electrical</p>
+                    <p><i class="bi bi-check2-all"></i> Roofing</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div><!-- End Card Item -->
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="300">
+            <div class="card-item">
+              <div class="row">
+                <div class="col-xl-5">
+                  <div class="card-bg" style="background-image: url(assets/img/snow-remove.jpeg);"></div>
+                </div>
+                <div class="col-xl-7 d-flex align-items-center">
+                  <div class="card-body">
+                    <h4 class="card-title">Greenery and Outdoor</h4>
+                    <p><i class="bi bi-check2-all"></i> Lawn Care</p>
+                    <p><i class="bi bi-check2-all"></i> Tree Care</p>
+                    <p><i class="bi bi-check2-all"></i> Landscaping</p>
+                    <p><i class="bi bi-check2-all"></i> Snow Removal</p>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div><!-- End Card Item -->
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="400">
+            <div class="card-item">
+              <div class="row">
+                <div class="col-xl-5">
+                  <div class="card-bg" style="background-image: url(assets/img/constructions-4.jpg);"></div>
+                </div>
+                <div class="col-xl-7 d-flex align-items-center">
+                  <div class="card-body">
+                    <h4 class="card-title">Other</h4>
+                    <p><i class="bi bi-check2-all"></i> Plumbing</p>
+                    <p><i class="bi bi-check2-all"></i> HVAC</p>
+                    <p><i class="bi bi-check2-all"></i> Painting</p>
+                    <p><i class="bi bi-check2-all"></i> Remodeling</p>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div><!-- End Card Item -->
+
+        </div>
+
+      </div>
+    </section><!-- End Constructions Section -->
+
+    <!-- ======= Services Section ======= -->
+    <section id="services" class="services section-bg">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-header">
+          <h2>Features</h2>
+          <p>A suite of features to give you the advantage over your competition</p>
+        </div>
+
+        <div class="row gy-4">
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="service-item  position-relative">
+              <div class="icon">
+                <i class="fa-solid fa-person-booth"></i>
+              </div>
+              <h3>Client Manager</h3>
+              <p>iByxa helps you keep client information up to date and detailed—complete with job and communication history—without headaches.
+                You’ll deliver personalized service that makes every customer feel like they’re your #1.</p>
+              
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+            <div class="service-item position-relative">
+              <div class="icon">
+                <i class="fa-solid fa-calendar"></i>
+              </div>
+              <h3>Scheduling and Dispatching</h3>
+              <p>ibyxa helps you schedule field service jobs faster, avoid booking mistakes, and route visits efficiently—all while keeping your crew and customers on the same page.</p>
+              
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+            <div class="service-item position-relative">
+              <div class="icon">
+                <i class="fa-solid fa-newspaper"></i>
+              </div>
+              <h3>Invoicing and Followups</h3>
+              <p>iByxa lets you generate invoices with accurate job details in seconds. Then sit back while automated follow-ups and convenient online payments help you get paid 4x faster.</p>
+              
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
+            <div class="service-item position-relative">
+              <div class="icon">
+                <i class="fa-solid fa-mobile-android"></i>
+              </div>
+              <h3>Mobile Apps</h3>
+              <p>The iByxa mobile app helps you manage your field operations from the road or the jobsite. Schedule work, manage your team, and communicate with customers no matter where you are.
+                The app is available for all iByxa plans, ready to download from the app store.</p>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="500">
+            <div class="service-item position-relative">
+              <div class="icon">
+                <i class="fa-solid fa-shopping-cart"></i>
+              </div>
+              <h3>Online Bookings</h3>
+              <p>With iByxa, you’ll save time on scheduling by letting customers book appointments online. Watch jobs appear in your schedule while you stay in control of your availability.</p>
+              
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
+            <div class="service-item position-relative">
+              <div class="icon">
+                <i class="fa-solid fa-people-group"></i>
+              </div>
+              <h3>Client Portal</h3>
+              <p>Customer’s online portal where they can request work, approve quotes, review scheduled jobs, make payments, and refer their friends.</p>
+              
+            </div>
+          </div><!-- End Service Item -->
+
+        </div>
+<br>
+<div class="row gy-4">
+
+  <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+    <div class="service-item  position-relative">
+      <div class="icon">
+        <i class="fa-solid fa-phone"></i>
+      </div>
+      <h3>Customer communication</h3>
+      <p>Save time and avoid miscommunication with automated customer reminders and follow-ups. You’ll stay focused on your work while email and texts from iByxa keep your customers in the loop.
+        Email</p>
+      
+    </div>
+  </div><!-- End Service Item -->
+
+  <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+    <div class="service-item position-relative">
+      <div class="icon">
+        <i class="fa-solid fa-list-check"></i>
+      </div>
+      <h3>Job Forms</h3>
+      <p>Use iByxa’s customizable job forms and checklists to complete top-notch site inspections, assessments, and field service work every time.</p>
+      
+    </div>
+  </div><!-- End Service Item -->
+
+  <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+    <div class="service-item position-relative">
+      <div class="icon">
+        <i class="fa-solid fa-reply-all"></i>
+      </div>
+      <h3>Quoting and Follow-ups</h3>
+      <p>iByxa lets you build customer-friendly quotes in minutes, price jobs perfectly, and automate your quote follow-ups so you never leave work on the table.</p>
+      
+    </div>
+  </div><!-- End Service Item -->
+
+  <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
+    <div class="service-item position-relative">
+      <div class="icon">
+        <i class="fa-solid fa-envelope"></i>
+      </div>
+      <h3>Email Marketing</h3>
+      <p>Non et temporibus minus omnis sed dolor esse consequatur. Cupiditate sed error ea fuga sit provident
+        adipisci neque.</p>
+      
+    </div>
+  </div><!-- End Service Item -->
+
+  <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="500">
+    <div class="service-item position-relative">
+      <div class="icon">
+        <i class="fa-solid fa-credit-card"></i>
+      </div>
+      <h3>Credit Card Processing</h3>
+      <p>Make it a breeze for customers to pay you. iByxa’s credit card processing provides a faster and simpler payment process with convenient payment options, automatic billing, and instant payouts so you can get paid from the office or the field.</p>
+      
+    </div>
+  </div><!-- End Service Item -->
+
+  <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
+    <div class="service-item position-relative">
+      <div class="icon">
+        <i class="fa-solid fa-money-bill"></i>
+      </div>
+      <h3>Reporting</h3>
+      <p>Track all aspects of your job costs in real time, and run powerful reports at the job level or across all of your jobs to tease out performance insights.</p>
+      
+    </div>
+  </div><!-- End Service Item -->
+
+</div>
+      </div>
+    </section><!-- End Services Section -->
+
+    <!-- ======= Alt Services Section ======= -->
+
+    <section id="get-started" class="get-started ">
+      <div class="container">
+
+        <div class="row justify-content-between gy-4">
+
+          <div class="col-lg-6 d-flex align-items-center" data-aos="fade-up">
+            <div class="content">
+              <h3>Share your expertise in the service and contractor industry to help shape our technology. </h3>
+              <p>Get early access to ibyxa's revolutionary software with exclusive discounts for early adopters.</p>
+              <p>Be part of the service industry revolution—join the waitlist today!</p>
+            </div>
+          </div>
+
+          <div class="col-lg-5" data-aos="fade">
+            <form action="forms/quote.php" method="post" class="php-email-form">
+              <h3>Get in touch</h3>
+              <p>Fill out the form and our team will reach out to you.</p>
+
+              <div class="row gy-3">
+
+                <div class="col-md-12">
+                  <input type="text" name="name" class="form-control" placeholder="Name" required>
+                </div>
+
+                <div class="col-md-12 ">
+                  <input type="email" class="form-control" name="email" placeholder="Email" required>
+                </div>
+
+                <div class="col-md-12">
+                  <input type="text" class="form-control" name="phone" placeholder="Phone" required>
+                </div>
+
+                <div class="col-md-12">
+                  <textarea class="form-control" name="message" rows="6" placeholder="Message" required></textarea>
+                </div>
+
+                <div class="col-md-12 text-center">
+                  <div class="loading">Loading</div>
+                  <div class="error-message"></div>
+                  <div class="sent-message">Your quote request has been sent successfully. Thank you!</div>
+                  <p class="fa-italic fst-italic"> *No credit card required.</p>
+                  <button type="submit">Book a demo</button>
+                </div>
+
+              </div>
+            </form>
+          </div><!-- End Quote Form -->
+
+        </div>
+
+      </div>
+    </section><!-- End Get Started Section -->
+    <section id="alt-services" class="alt-services section-bg">
+      <div class="container" data-aos="fade-up">
+
+        <div class="row justify-content-around gy-4">
+          <div class="col-lg-6 img-bg" style="background-image: url(assets/img/alt-services.jpg);" data-aos="zoom-in"
+            data-aos-delay="100"></div>
+
+          <div class="col-lg-5 d-flex flex-column justify-content-center">
+            <h3>We’re with you every step of the way</h3>
+            
+
+            <div class="icon-box d-flex position-relative" data-aos="fade-up" data-aos-delay="100">
+              <i class="bi bi-easel flex-shrink-0"></i>
+              <div>
+                <h4><a href="" class="stretched-link">Free implementation</a></h4>
+                <p>Seamlessly launch your projects with our complimentary implementation service.</p>
+              </div>
+            </div><!-- End Icon Box -->
+
+            <div class="icon-box d-flex position-relative" data-aos="fade-up" data-aos-delay="200">
+              <i class="bi bi-patch-check flex-shrink-0"></i>
+              <div>
+                <h4><a href="" class="stretched-link">Free product training and certification</a></h4>
+                <p>Gain expertise and recognition with our cost-free product training and certification programs</p>
+              </div>
+            </div><!-- End Icon Box -->
+
+            <div class="icon-box d-flex position-relative" data-aos="fade-up" data-aos-delay="300">
+              <i class="bi bi-brightness-high flex-shrink-0"></i>
+              <div>
+                <h4><a href="" class="stretched-link">24*7 Support</a></h4>
+                <p> Stay worry-free as our dedicated support team is available round-the-clock to assist you.</p>
+              </div>
+            </div><!-- End Icon Box -->
+
+            <div class="icon-box d-flex position-relative" data-aos="fade-up" data-aos-delay="400">
+              <i class="bi bi-brightness-high flex-shrink-0"></i>
+              <div>
+                <h4><a href="" class="stretched-link">Unlimited Integrations</a></h4>
+                <p>Unlock the full potential of your business with limitless integration possibilities.</p>
+              </div>
+            </div><!-- End Icon Box -->
+
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End Alt Services Section -->
+
+
+
+
+
+
+
+
+
+  </main><!-- End #main -->
 
   <!-- ======= Footer ======= -->
   <footer id="footer" class="footer">
 
+    <div class="footer-content position-relative">
+      <div class="container">
+        <div class="row">
 
-    <div class="container">
-      <div class="copyright">
-        &copy; Copyright <strong><span>iByxa</span></strong>. All Rights Reserved
-      </div>
-      <div class="credits">
-        <!-- All the links in the footer should remain intact. -->
-        <!-- You can delete the links only if you purchased the pro version. -->
-        <!-- Licensing information: https://bootstrapmade.com/license/ -->
-        <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/flexstart-bootstrap-startup-template/ -->
+          <div class="col-lg-4 col-md-6">
+            <div class="footer-info">
+              <h3>iByxa</h3>
+              <p>
+                C-702 Eisha Pearl business hub <br>
+                Pune 411048, India<br><br>
+                <strong>Phone:</strong> +91 94031 23275<br>
+                <strong>Email:</strong> info@ibyxa.in<br>
+              </p>
+              <div class="social-links d-flex mt-3">
+                <a href="#" class="d-flex align-items-center justify-content-center"><i class="bi bi-twitter"></i></a>
+                <a href="#" class="d-flex align-items-center justify-content-center"><i class="bi bi-facebook"></i></a>
+                <a href="#" class="d-flex align-items-center justify-content-center"><i class="bi bi-instagram"></i></a>
+                <a href="#" class="d-flex align-items-center justify-content-center"><i class="bi bi-linkedin"></i></a>
+              </div>
+            </div>
+          </div><!-- End footer info column-->
+
+          <!-- <div class="col-lg-2 col-md-3 footer-links">
+            <h4>Useful Links</h4>
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">About us</a></li>
+              <li><a href="#">Services</a></li>
+              <li><a href="#">Terms of service</a></li>
+              <li><a href="#">Privacy policy</a></li>
+            </ul> -->
+          <!-- </div> -->
+          <!-- End footer links column-->
+
+
+
+
+
+
+
+        </div>
       </div>
     </div>
-  </footer><!-- End Footer -->
 
-  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+    <div class="footer-legal text-center position-relative">
+      <div class="container">
+        <div class="copyright">
+          &copy; Copyright <strong><span>iByxa</span></strong>. All Rights Reserved
+        </div>
+        <div class="credits">
+
+          Designed by iByxa
+        </div>
+      </div>
+    </div>
+
+  </footer>
+  <!-- End Footer -->
+
+  <a href="#" class="scroll-top d-flex align-items-center justify-content-center"><i
+      class="bi bi-arrow-up-short"></i></a>
+
+  <div id="preloader"></div>
 
   <!-- Vendor JS Files -->
-  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
-  <script src="assets/vendor/aos/aos.js"></script>
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
   <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
   <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
   <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
   <script src="assets/vendor/php-email-form/validate.js"></script>
 
   <!-- Template Main JS File -->
